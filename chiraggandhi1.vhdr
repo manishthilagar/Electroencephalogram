@@ -1,0 +1,262 @@
+Brain Vision Data Exchange Header File Version 1.0
+; Data created by the Vision Recorder
+
+[Common Infos]
+Codepage=UTF-8
+DataFile=chiraggandhi1.eeg
+MarkerFile=chiraggandhi1.vmrk
+DataFormat=BINARY
+; Data orientation: MULTIPLEXED=ch1,pt1, ch2,pt1 ...
+DataOrientation=MULTIPLEXED
+NumberOfChannels=67
+; Sampling interval in microseconds
+SamplingInterval=2000
+
+[Binary Infos]
+BinaryFormat=IEEE_FLOAT_32
+
+[Channel Infos]
+; Each entry: Ch<Channel number>=<Name>,<Reference channel name>,
+; <Resolution in "Unit">,<Unit>, Future extensions..
+; Fields are delimited by commas, some fields might be omitted (empty).
+; Commas in channel names are coded as "\1".
+Ch1=FP1,,0.0406901,µV
+Ch2=Fz,,0.0406901,µV
+Ch3=F3,,0.0406901,µV
+Ch4=F7,,0.0406901,µV
+Ch5=FT9,,0.0406901,µV
+Ch6=FC5,,0.0406901,µV
+Ch7=FC1,,0.0406901,µV
+Ch8=C3,,0.0406901,µV
+Ch9=T7,,0.0406901,µV
+Ch10=TP9,,0.0406901,µV
+Ch11=CP5,,0.0406901,µV
+Ch12=CP1,,0.0406901,µV
+Ch13=Pz,,0.0406901,µV
+Ch14=P3,,0.0406901,µV
+Ch15=P7,,0.0406901,µV
+Ch16=O1,,0.0406901,µV
+Ch17=Oz,,0.0406901,µV
+Ch18=O2,,0.0406901,µV
+Ch19=P4,,0.0406901,µV
+Ch20=P8,,0.0406901,µV
+Ch21=TP10,,0.0406901,µV
+Ch22=CP6,,0.0406901,µV
+Ch23=CP2,,0.0406901,µV
+Ch24=Cz,,0.0406901,µV
+Ch25=C4,,0.0406901,µV
+Ch26=T8,,0.0406901,µV
+Ch27=FT10,,0.0406901,µV
+Ch28=FC6,,0.0406901,µV
+Ch29=FC2,,0.0406901,µV
+Ch30=F4,,0.0406901,µV
+Ch31=F8,,0.0406901,µV
+Ch32=FP2,,0.0406901,µV
+Ch33=AF7,,0.0406901,µV
+Ch34=AF3,,0.0406901,µV
+Ch35=AFz,,0.0406901,µV
+Ch36=F1,,0.0406901,µV
+Ch37=F5,,0.0406901,µV
+Ch38=FT7,,0.0406901,µV
+Ch39=FC3,,0.0406901,µV
+Ch40=C1,,0.0406901,µV
+Ch41=C5,,0.0406901,µV
+Ch42=TP7,,0.0406901,µV
+Ch43=CP3,,0.0406901,µV
+Ch44=P1,,0.0406901,µV
+Ch45=P5,,0.0406901,µV
+Ch46=PO7,,0.0406901,µV
+Ch47=PO3,,0.0406901,µV
+Ch48=POz,,0.0406901,µV
+Ch49=PO4,,0.0406901,µV
+Ch50=PO8,,0.0406901,µV
+Ch51=P6,,0.0406901,µV
+Ch52=P2,,0.0406901,µV
+Ch53=CPz,,0.0406901,µV
+Ch54=CP4,,0.0406901,µV
+Ch55=TP8,,0.0406901,µV
+Ch56=C6,,0.0406901,µV
+Ch57=C2,,0.0406901,µV
+Ch58=FC4,,0.0406901,µV
+Ch59=FT8,,0.0406901,µV
+Ch60=F6,,0.0406901,µV
+Ch61=AF8,,0.0406901,µV
+Ch62=AF4,,0.0406901,µV
+Ch63=F2,,0.0406901,µV
+Ch64=Iz,,0.0406901,µV
+Ch65=x_dir,,1,mg
+Ch66=y_dir,,1,mg
+Ch67=z_dir,,1,mg
+
+[Comment]
+
+BrainVision Recorder Professional   -   V. 1.21.0303
+
+
+A m p l i f i e r  S e t u p
+============================
+Number of channels: 67
+Sampling Rate [Hz]: 500
+Sampling Interval [µS]: 2000
+
+Channels
+--------
+#     Name      Phys. Chn.    Resolution / Unit   Low Cutoff [s]   High Cutoff [Hz]   Notch [Hz]    Gradient         Offset
+1     FP1         1          0.0406901 µV             DC              131              Off
+2     Fz          2          0.0406901 µV             DC              131              Off
+3     F3          3          0.0406901 µV             DC              131              Off
+4     F7          4          0.0406901 µV             DC              131              Off
+5     FT9         5          0.0406901 µV             DC              131              Off
+6     FC5         6          0.0406901 µV             DC              131              Off
+7     FC1         7          0.0406901 µV             DC              131              Off
+8     C3          8          0.0406901 µV             DC              131              Off
+9     T7          9          0.0406901 µV             DC              131              Off
+10    TP9         10         0.0406901 µV             DC              131              Off
+11    CP5         11         0.0406901 µV             DC              131              Off
+12    CP1         12         0.0406901 µV             DC              131              Off
+13    Pz          13         0.0406901 µV             DC              131              Off
+14    P3          14         0.0406901 µV             DC              131              Off
+15    P7          15         0.0406901 µV             DC              131              Off
+16    O1          16         0.0406901 µV             DC              131              Off
+17    Oz          17         0.0406901 µV             DC              131              Off
+18    O2          18         0.0406901 µV             DC              131              Off
+19    P4          19         0.0406901 µV             DC              131              Off
+20    P8          20         0.0406901 µV             DC              131              Off
+21    TP10        21         0.0406901 µV             DC              131              Off
+22    CP6         22         0.0406901 µV             DC              131              Off
+23    CP2         23         0.0406901 µV             DC              131              Off
+24    Cz          24         0.0406901 µV             DC              131              Off
+25    C4          25         0.0406901 µV             DC              131              Off
+26    T8          26         0.0406901 µV             DC              131              Off
+27    FT10        27         0.0406901 µV             DC              131              Off
+28    FC6         28         0.0406901 µV             DC              131              Off
+29    FC2         29         0.0406901 µV             DC              131              Off
+30    F4          30         0.0406901 µV             DC              131              Off
+31    F8          31         0.0406901 µV             DC              131              Off
+32    FP2         32         0.0406901 µV             DC              131              Off
+33    AF7         33         0.0406901 µV             DC              131              Off
+34    AF3         34         0.0406901 µV             DC              131              Off
+35    AFz         35         0.0406901 µV             DC              131              Off
+36    F1          36         0.0406901 µV             DC              131              Off
+37    F5          37         0.0406901 µV             DC              131              Off
+38    FT7         38         0.0406901 µV             DC              131              Off
+39    FC3         39         0.0406901 µV             DC              131              Off
+40    C1          40         0.0406901 µV             DC              131              Off
+41    C5          41         0.0406901 µV             DC              131              Off
+42    TP7         42         0.0406901 µV             DC              131              Off
+43    CP3         43         0.0406901 µV             DC              131              Off
+44    P1          44         0.0406901 µV             DC              131              Off
+45    P5          45         0.0406901 µV             DC              131              Off
+46    PO7         46         0.0406901 µV             DC              131              Off
+47    PO3         47         0.0406901 µV             DC              131              Off
+48    POz         48         0.0406901 µV             DC              131              Off
+49    PO4         49         0.0406901 µV             DC              131              Off
+50    PO8         50         0.0406901 µV             DC              131              Off
+51    P6          51         0.0406901 µV             DC              131              Off
+52    P2          52         0.0406901 µV             DC              131              Off
+53    CPz         53         0.0406901 µV             DC              131              Off
+54    CP4         54         0.0406901 µV             DC              131              Off
+55    TP8         55         0.0406901 µV             DC              131              Off
+56    C6          56         0.0406901 µV             DC              131              Off
+57    C2          57         0.0406901 µV             DC              131              Off
+58    FC4         58         0.0406901 µV             DC              131              Off
+59    FT8         59         0.0406901 µV             DC              131              Off
+60    F6          60         0.0406901 µV             DC              131              Off
+61    AF8         61         0.0406901 µV             DC              131              Off
+62    AF4         62         0.0406901 µV             DC              131              Off
+63    F2          63         0.0406901 µV             DC              131              Off
+64    Iz          64         0.0406901 µV             DC              131              Off
+65    x_dir       65                 1 mg             DC               50              Off
+66    y_dir       66                 1 mg             DC               50              Off
+67    z_dir       67                 1 mg             DC               50              Off
+
+
+LiveAmp SN:                	056301-0437
+LiveAmp hardware revision: 	5
+Firmware version:          	4.71
+
+LiveAmp SN:                	056301-0442
+LiveAmp hardware revision: 	5
+Firmware version:          	4.71
+
+Sensor and trigger extension SN:	               054901-0051
+Sensor and trigger extension hardware revision: 1
+Sensor and trigger extension firmware version:  1.14
+
+Library version:           	1.17.12.11
+
+Use Active/Dry Electrodes: Yes
+
+S o f t w a r e  F i l t e r s
+==============================
+Disabled
+
+
+Data/Gnd/Ref Electrodes Selected Impedance Measurement Range: 25 - 60 kOhm
+Impedance [kOhm] at 10:45:16 :
+FP1:         10
+Fz:          16
+F3:           8
+F7:           6
+FT9:          5
+FC5:          5
+FC1:          1
+C3:          10
+T7:          19
+TP9:         22
+CP5:          9
+CP1:         11
+Pz:           7
+P3:          11
+P7:          17
+O1:          23
+Oz:           7
+O2:          21
+P4:          11
+P8:          11
+TP10:        33
+CP6:         11
+CP2:          8
+Cz:           2
+C4:           2
+T8:           7
+FT10:         6
+FC6:          5
+FC2:          7
+F4:           9
+F8:           0
+FP2:          7
+AF7:         10
+AF3:          0
+AFz:          0
+F1:           0
+F5:           0
+FT7:          0
+FC3:          0
+C1:          12
+C5:           0
+TP7:          0
+CP3:          6
+P1:          11
+P5:           5
+PO7:         11
+PO3:         11
+POz:          6
+PO4:         12
+PO8:          3
+P6:           0
+P2:           0
+CPz:          0
+CP4:          0
+TP8:          0
+C6:           0
+C2:           0
+FC4:          0
+FT8:          6
+F6:           0
+AF8:          0
+AF4:          0
+F2:           0
+Iz:           2
+Gnd:          2
+Ref:         15
